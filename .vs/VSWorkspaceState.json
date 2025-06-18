@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\dll_injection",
+    "\\messagebox",
+    "\\shellcode_injection"
+  ],
+  "SelectedNode": "\\dll_injection\\dll_injection.c",
+  "PreviewInSolutionExplorer": false
+}
