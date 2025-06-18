@@ -8,7 +8,7 @@ HMODULE hKERNEL32 = NULL;
 STARTUPINFO si = { sizeof(si) };
 PROCESS_INFORMATION pi={0};
 
-wchar_t dllPath[MAX_PATH] = L"C:\\Users\\dell\\Desktop\\codeinJava\\javascript&typescript\\inject.dll";
+wchar_t dllPath[MAX_PATH] = L"C:\\Users\\dell\\Desktop\\codeinJava\\javascript&typescript\\dll_injection\\inject.dll";
 size_t dllPathSize = sizeof(dllPath);
 
 
@@ -17,6 +17,7 @@ int main(int argc,char ** argv){
     // we created a dummy process
 if(CreateProcessW(
         L"C:\\Windows\\System32\\calc.exe",
+        // L"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         NULL,
         NULL,
         NULL,
@@ -29,16 +30,8 @@ if(CreateProcessW(
 
     )){
         printf("calc process created succesfully!\n");
-    //     MessageBoxA
-    // (
-    //     NULL,
-    //     "Your PC hacked pay 1000$ in btc to recover!",
-    //     "hello world",
-    //     MB_YESNOCANCEL | MB_ICONERROR
-    // );
-
     }else{
-        printf("calc process couldnot be created \n");
+        printf("calc process couldnot be created \n, error: %ld",GetLastError());
         return EXIT_FAILURE;
     }
     
@@ -63,17 +56,17 @@ if(CreateProcessW(
     // allcatiing virual memory for that open process                                                                             //rw
     rbuffer = VirtualAllocEx(hProcess,NULL,dllPathSize,MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
 
-    printf("[*] Successfully Allocated the %u-bytes with the rwx privledges\n",sizeof(dllPath));
-
     if (rbuffer == NULL){
         printf("[*] couldnt create rbuffer , error: %ld\n",GetLastError());
         return EXIT_FAILURE;
     }
+    printf("[*] Successfully Allocated the %u-bytes with the rw privledges\n",sizeof(dllPath));
+
 
     // writting the path to dll into that virtual memory !
     WriteProcessMemory(hProcess,rbuffer,dllPath,dllPathSize,NULL);
-    printf("Succesffully wrote the %s to the process memory\n",dllPath);
-
+    
+    printf("Succesffully wrote the [%S] to the process memory\n",dllPath);
 
     // getting the kernel32
     hKERNEL32 = GetModuleHandleW(L"Kernel32");
@@ -93,6 +86,7 @@ if(CreateProcessW(
     if(hThread == NULL){
         printf("failded to get a handle to thread : %ld\n",GetLastError());
         CloseHandle(hProcess);
+        return EXIT_FAILURE;
     }
 
     printf("got handler to the newly-created thread %ld\n",hThread);
