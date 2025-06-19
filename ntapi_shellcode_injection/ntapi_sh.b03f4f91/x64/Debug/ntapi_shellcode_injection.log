@@ -1,0 +1,35 @@
+﻿  ntapi_shellcode_injection.cpp
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(223,23): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(236,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(236,9):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(236,9):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(236,9):
+      consider using '%I64d' in the format string
+  
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(239,13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(239,13):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(239,13):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(239,13):
+      consider using '%I64d' in the format string
+  
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(249,17): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(249,17):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(249,17):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(249,17):
+      consider using '%I64d' in the format string
+  
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(253,17): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(253,17):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(253,17):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\ntapi_shellcode_injection.cpp(253,17):
+      consider using '%I64d' in the format string
+  
+  ntapi_shellcode_injection.vcxproj -> C:\Users\dell\Desktop\codeinJava\javascript&typescript\ntapi_shellcode_injection\x64\Debug\ntapi_shellcode_injection.exe
