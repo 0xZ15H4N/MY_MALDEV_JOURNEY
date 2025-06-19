@@ -8,7 +8,7 @@ HMODULE hKERNEL32 = NULL;
 STARTUPINFO si = { sizeof(si) };
 PROCESS_INFORMATION pi={0};
 
-wchar_t dllPath[MAX_PATH] = L"C:\\Users\\dell\\Desktop\\codeinJava\\javascript&typescript\\dll_injection\\inject.dll";
+wchar_t dllPath[MAX_PATH] = L"C:\\Users\\dell\\Desktop\\codeinJava\\javascript&typescript\\dll_injection\\x32_dll\\inject.dll";
 size_t dllPathSize = sizeof(dllPath);
 
 

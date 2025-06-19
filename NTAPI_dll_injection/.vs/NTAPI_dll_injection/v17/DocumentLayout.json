@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\NTAPI_dll_injection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2514FFB8-9E2D-49FB-B0AE-2BF44BED595D}|NTAPI_dll_injection.vcxproj|C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\NTAPI_dll_injection\\NTAPI_dll_injection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2514FFB8-9E2D-49FB-B0AE-2BF44BED595D}|NTAPI_dll_injection.vcxproj|solutionrelative:NTAPI_dll_injection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NTAPI_dll_injection.cpp",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\NTAPI_dll_injection\\NTAPI_dll_injection.cpp",
+              "RelativeDocumentMoniker": "NTAPI_dll_injection.cpp",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\NTAPI_dll_injection\\NTAPI_dll_injection.cpp",
+              "RelativeToolTip": "NTAPI_dll_injection.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-19T20:10:43.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

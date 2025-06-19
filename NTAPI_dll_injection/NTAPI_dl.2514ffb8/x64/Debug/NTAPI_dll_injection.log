@@ -1,0 +1,35 @@
+﻿  NTAPI_dll_injection.cpp
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(37,20): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(49,2): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(49,2):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(49,2):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(49,2):
+      consider using '%I64d' in the format string
+  
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(52,3): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(52,3):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(52,3):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(52,3):
+      consider using '%I64d' in the format string
+  
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(61,3): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(61,3):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(61,3):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(61,3):
+      consider using '%I64d' in the format string
+  
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(64,2): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(64,2):
+      consider using '%lld' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(64,2):
+      consider using '%Id' in the format string
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\NTAPI_dll_injection.cpp(64,2):
+      consider using '%I64d' in the format string
+  
+  NTAPI_dll_injection.vcxproj -> C:\Users\dell\Desktop\codeinJava\javascript&typescript\NTAPI_dll_injection\x64\Debug\NTAPI_dll_injection.exe
