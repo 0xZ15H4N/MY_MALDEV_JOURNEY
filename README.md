@@ -12,6 +12,6 @@ some use full site of microsoft
 1) error status code : https://learn.microsoft.com/en-us/windows/win32/Debug/system-error-codes--0-499-
 
             /*  (also we can look inside ntstatus.h header file to see other NTSTATUS!) */ 👇
-2) NTSTATUS code : https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values 
+2) NTSTATUS code : https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55 
 
 3) https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntwaitforsingleobject
