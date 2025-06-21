@@ -1,0 +1,6 @@
+﻿  injectionWindows.cpp
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\injectionWindows\injectionWindows.cpp(77,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\injectionWindows\injectionWindows.cpp(77,12):
+      consider using '%zd' in the format string
+  
+  injectionWindows.vcxproj -> C:\Users\dell\Desktop\codeinJava\javascript&typescript\injectionWindows\x64\Debug\injectionWindows.exe
