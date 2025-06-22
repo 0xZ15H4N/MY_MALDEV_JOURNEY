@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\GetRemoteProcess_Search\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7C0520-0E55-4EFC-9CAF-BF1FF21C369E}|GetRemoteProcess_Search.vcxproj|C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\GetRemoteProcess_Search\\GetRemoteProcess_Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD7C0520-0E55-4EFC-9CAF-BF1FF21C369E}|GetRemoteProcess_Search.vcxproj|solutionrelative:GetRemoteProcess_Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetRemoteProcess_Search.cpp",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\GetRemoteProcess_Search\\GetRemoteProcess_Search.cpp",
+              "RelativeDocumentMoniker": "GetRemoteProcess_Search.cpp",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\codeinJava\\javascript\u0026typescript\\GetRemoteProcess_Search\\GetRemoteProcess_Search.cpp",
+              "RelativeToolTip": "GetRemoteProcess_Search.cpp",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T13:15:46.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

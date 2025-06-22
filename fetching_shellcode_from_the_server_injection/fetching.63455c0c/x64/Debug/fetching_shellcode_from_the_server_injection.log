@@ -1,10 +1,10 @@
 ﻿  fetching_shellcode_from_the_server_injection.cpp
-C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(111,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'SIZE_T'
-      C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(111,9):
+C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(112,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'SIZE_T'
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(112,9):
       consider using '%llu' in the format string
-      C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(111,9):
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(112,9):
       consider using '%Iu' in the format string
-      C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(111,9):
+      C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\fetching_shellcode_from_the_server_injection.cpp(112,9):
       consider using '%I64u' in the format string
   
   fetching_shellcode_from_the_server_injection.vcxproj -> C:\Users\dell\Desktop\codeinJava\javascript&typescript\fetching_shellcode_from_the_server_injection\x64\Debug\fetching_shellcode_from_the_server_injection.exe

